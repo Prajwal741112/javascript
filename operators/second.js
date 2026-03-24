@@ -125,10 +125,20 @@ console.log(sum);*/
 // myFunction();
 // myFunction();
 
-function sum (x,y){
-    s=x+y;
-    return s;
-    console .log("after return");
+// function sum (x,y){
+//     s=x+y;
+//     return s;
+//     console .log("after return");
+// }
+// let val =sum(3,4);
+// console.log(val);
+
+function countvowels(str){
+    let count = 0;
+    for (const char of str){
+        if (char=="a"||char=="e"||char=="i"||char=="o"||char=="u") {
+            count++;
+        }
+    }
+    console.log(count);
 }
-let val =sum(3,4);
-console.log(val);
